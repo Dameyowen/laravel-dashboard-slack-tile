@@ -19,7 +19,7 @@ class SlackComponent extends Component
     {
         return view('dashboard-slack::tile', [
             'items' => SlackStore::make($this->channel)->messages(),
-            'refreshIntervalInSeconds' => config('dashboard.tiles.github.refresh_interval_in_seconds') ?? 60,
+            'refreshIntervalInSeconds' => config('dashboard.tiles.slack.refresh_interval_in_seconds') ?? 10,
         ]);
     }
 }

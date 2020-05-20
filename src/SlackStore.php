@@ -3,7 +3,6 @@
 namespace Enflow\Dashboard\Tile\Slack;
 
 use Illuminate\Support\Str;
-use Spatie\Dashboard\Models\Tile;
 
 class SlackStore
 {
@@ -24,6 +23,20 @@ class SlackStore
     public function setMessages(Iterable $messages): self
     {
         $this->tile->putData('messages', $messages);
+
+        return $this;
+    }
+    
+    public function appendMessage($message): self
+    {
+        $this->tile->appendData('messages', $message);
+
+        return $this;
+    }
+
+    public function prependMessage($message): self
+    {
+        $this->tile->prependData('messages', $message);
 
         return $this;
     }

@@ -1,14 +1,13 @@
 <x-dashboard-tile :position="$position">
     <div class="h-full">
-        <h1 class="text-2xl text-center">Slack</h1>
+        <h1 class="text-2xl text-center">{{ $channel }}</h1>
         <div wire:poll.{{ $refreshIntervalInSeconds }}s class="self-center | divide-y-2">
             <ul class="slack__messages">
                 @foreach($items as $row)
                     <li class="message">
-                        <div class="message__title">{{ $row['message'] ?? null }}</div>
+                        <div class="message__title">{{ $row['text'] ?? null }}</div>
                         <div class="">
-                            <span class="message__date">{{ ($row['created_diff']) }}</span>
-                            <span class="message__author">({{ $row['author'] ?? null }})</span>
+                            <span class="message__date">{{ ($row['date'] ?? null) }}</span>
                         </div>
                     </li>
                 @endforeach
@@ -33,7 +32,7 @@
     }
 
     .message__author {
-        opacity: 0.7;
+        opacity: 0.6;
     }
 
 </style>

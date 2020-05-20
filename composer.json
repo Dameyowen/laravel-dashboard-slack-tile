@@ -17,6 +17,7 @@
     ],
     "require": {
         "php": "^7.4",
+        "lisennk/laravel-slack-events-api": "dev-laravelV7",
         "spatie/laravel-dashboard": "^1.0"
     },
     "require-dev": {
