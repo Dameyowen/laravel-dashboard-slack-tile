@@ -1,13 +1,13 @@
 {
-    "name": "enflow/spatie-dashboard-slack-tile",
-    "description": "Spatie dashboard tile listening for slack messages",
+    "name": "enflow/laravel-dashboard-slack-tile",
+    "description": "Laravel Dashboard tile listening for slack messages",
     "keywords": [
         "enflow",
         "dashboard",
         "tile",
         "slack-api"
     ],
-    "homepage": "https://github.com/enflow-nl/spatie-dashboard-slack-tile",
+    "homepage": "https://github.com/enflow-nl/laravel-dashboard-slack-tile",
     "license": "MIT",
     "authors": [
         {
