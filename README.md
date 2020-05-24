@@ -1,19 +1,19 @@
 # Slack messages tile
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/:vendor/:package_name.svg?style=flat-square)](https://packagist.org/packages/:vendor/:package_name)
-[![GitHub Tests Action Status](https://img.shields.io/github/workflow/status/:vendor/:package_name/run-tests?label=tests)](https://github.com/:vendor/:package_name/actions?query=workflow%3Arun-tests+branch%3Amaster)
-[![Total Downloads](https://img.shields.io/packagist/dt/:vendor/:package_name.svg?style=flat-square)](https://packagist.org/packages/:vendor/:package_name)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/enflow/laravel-dashboard-slack-tile.svg?style=flat-square)](https://packagist.org/packages/enflow/laravel-dashboard-slack-tile)
+[![GitHub Tests Action Status](https://img.shields.io/github/workflow/status/enflow/laravel-dashboard-slack-tile/run-tests?label=tests)](https://github.com/enflow/laravel-dashboard-slack-tile/actions?query=workflow%3Arun-tests+branch%3Amaster)
+[![Total Downloads](https://img.shields.io/packagist/dt/enflow/laravel-dashboard-slack-tile.svg?style=flat-square)](https://packagist.org/packages/enflow/laravel-dashboard-slack-tile)
 
-This tile can be used on [the Laravel Dashboard]https://docs.spatie.be/laravel-dashboard).
+This tile can be used on [the Laravel Dashboard](https://docs.spatie.be/laravel-dashboard).
 
-It uses the slack messages webhook to listen for new messages 
+It uses the Slack messages webhook to listen for new messages and present them on the dashboard.
 
 ## Installation
 
 You can install the package via composer:
 
 ```bash
-composer require enflow/spatie-dashboard-slack-tile
+composer require enflow/laravel-dashboard-slack-tile
 ```
 
 ## Usage
@@ -39,27 +39,23 @@ Add or append the following in ```config\dashboard.php```
 ```
 
 ## Testing
-
 ``` bash
-composer test
+$ composer test
 ```
 
-## Changelog
-
-Please see [CHANGELOG](CHANGELOG.md) for more information on what has changed recently.
-
 ## Contributing
-
 Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
 
 ## Security
-
-If you discover any security related issues, please email :author_email instead of using the issue tracker.
+If you discover any security related issues, please email michel@enflow.nl instead of using the issue tracker.
 
 ## Credits
-
+- [Bart Noordsij](https://github.com/abartn)
+- [Michel Bardelmeijer](https://github.com/mbardelmeijer)
 - [All Contributors](../../contributors)
 
-## License
+## About Enflow
+Enflow is a digital creative agency based in Alphen aan den Rijn, Netherlands. We specialize in developing web applications, mobile applications and websites. You can find more info [on our website](https://enflow.nl/en).
 
+## License
 The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
