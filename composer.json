@@ -19,8 +19,6 @@
         "php": "^8.3",
         "lisennk/laravel-slack-events-api": "dev-laravelV7",
         "spatie/laravel-dashboard": "^1.0"
-    },
-    "require-dev": {
         "phpunit/phpunit": "^9.0"
     },
     "autoload": {
@@ -48,6 +46,6 @@
             ]
         }
     },
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "prefer-stable": true
 }
