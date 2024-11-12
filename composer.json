@@ -26,11 +26,6 @@
             "Enflow\\Dashboard\\Tile\\Slack\\": "src"
         }
     },
-    "autoload-dev": {
-        "psr-4": {
-            "Enflow\\Dashboard\\Tile\\Slack\\Tests\\": "tests"
-        }
-    },
     "scripts": {
         "test": "vendor/bin/phpunit",
         "test-coverage": "vendor/bin/phpunit --coverage-html coverage",
@@ -46,6 +41,5 @@
             ]
         }
     },
-    "minimum-stability": "dev",
     "prefer-stable": true
 }
