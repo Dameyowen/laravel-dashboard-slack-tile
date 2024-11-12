@@ -17,7 +17,7 @@
     ],
     "require": {
         "spatie/laravel-dashboard": "^3.1.0",
-        "phpunit/phpunit": "^9.0"
+        "phpunit/phpunit": "^10.1"
     },
     "require-dev": {
     },
