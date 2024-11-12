@@ -40,5 +40,5 @@
                 "Enflow\\Dashboard\\Tile\\Slack\\SlackServiceProvider"
             ]
         }
-    },
+    }
 }
