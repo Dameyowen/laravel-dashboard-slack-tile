@@ -15,12 +15,6 @@
             "email": "damey1999@live.nl"
         }
     ],
-    "require": {
-        "spatie/laravel-dashboard": "^3.1.0",
-        "phpunit/phpunit": "^10.1"
-    },
-    "require-dev": {
-    },
     "autoload": {
         "psr-4": {
             "Enflow\\Dashboard\\Tile\\Slack\\": "src"
