@@ -1,5 +1,5 @@
 {
-    "name": "enflow/laravel-dashboard-slack-tile",
+    "name": "dameyowen/laravel-dashboard-slack-tile",
     "description": "Laravel Dashboard tile listening for slack messages",
     "keywords": [
         "enflow",
@@ -7,12 +7,12 @@
         "tile",
         "slack-api"
     ],
-    "homepage": "https://github.com/enflow-nl/laravel-dashboard-slack-tile",
+    "homepage": "https://github.com/Dameyowen/laravel-dashboard-slack-tile",
     "license": "MIT",
     "authors": [
         {
-            "name": "Bart Noordsij",
-            "email": "bnoordsij@enflow.nl"
+            "name": "Damey",
+            "email": ""
         }
     ],
     "require": {
