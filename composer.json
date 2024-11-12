@@ -1,5 +1,5 @@
 {
-    "name": "dameyowen/laravel-dashboard-slack-tile",
+    "name": "enflow/laravel-dashboard-slack-tile",
     "description": "Laravel Dashboard tile listening for slack messages",
     "keywords": [
         "enflow",
@@ -7,14 +7,21 @@
         "tile",
         "slack-api"
     ],
-    "homepage": "https://github.com/Dameyowen/laravel-dashboard-slack-tile/",
+    "homepage": "https://github.com/enflow-nl/laravel-dashboard-slack-tile",
     "license": "MIT",
     "authors": [
         {
-            "name": "Damey",
-            "email": "damey1999@live.nl"
+            "name": "Bart Noordsij",
+            "email": "bnoordsij@enflow.nl"
         }
     ],
+    "require": {
+        "lisennk/laravel-slack-events-api": "^0.1.1",
+        "spatie/laravel-dashboard": "^3.1.0",
+        "phpunit/phpunit": "^9.0"
+    },
+    "require-dev": {
+    },
     "autoload": {
         "psr-4": {
             "Enflow\\Dashboard\\Tile\\Slack\\": "src"
@@ -34,5 +41,7 @@
                 "Enflow\\Dashboard\\Tile\\Slack\\SlackServiceProvider"
             ]
         }
-    }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
 }
