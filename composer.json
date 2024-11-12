@@ -15,12 +15,6 @@
             "email": "damey1999@live.nl"
         }
     ],
-    "require": {
-        "php": "^8.3",
-        "lisennk/laravel-slack-events-api": "dev-laravelV7",
-        "spatie/laravel-dashboard": "^1.0",
-        "phpunit/phpunit": "^9.0"
-    },
     "autoload": {
         "psr-4": {
             "Enflow\\Dashboard\\Tile\\Slack\\": "src"
