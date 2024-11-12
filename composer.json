@@ -16,7 +16,6 @@
         }
     ],
     "require": {
-        "lisennk/laravel-slack-events-api": "^0.1.1",
         "spatie/laravel-dashboard": "^3.1.0",
         "phpunit/phpunit": "^9.0"
     },
